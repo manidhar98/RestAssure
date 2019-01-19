@@ -72,9 +72,9 @@ public class MethodRest {
         MethodRest.APIHeader.put("charset", "UTF-8");
 
         MethodRest rest =new MethodRest();
-        //rest.getRest();
-        //rest.postRest();
-        //rest.putRest();
+        rest.getRest();
+        rest.postRest();
+        rest.putRest();
         rest.deleteRest();
     }
 }
